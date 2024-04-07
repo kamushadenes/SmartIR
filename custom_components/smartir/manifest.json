@@ -1,14 +1,14 @@
 {
   "domain": "smartir",
   "name": "SmartIR",
-  "documentation": "https://github.com/smartHomeHub/SmartIR",
+  "documentation": "https://github.com/kamushadenes/SmartIR",
   "dependencies": [],
-  "codeowners": ["@smartHomeHub"],
+  "codeowners": ["@kamushadenes"],
   "requirements": ["aiofiles>=0.6.0"],
-  "homeassistant": "2023.12.0",
-  "version": "1.17.9",
+  "homeassistant": "2024.4.0",
+  "version": "1.18.0",
   "updater": {
-    "version": "1.17.9",
+    "version": "1.18.0",
     "releaseNotes": "-- Fix Fan.async_turn_on() #1170",
     "files": [
       "__init__.py",
